@@ -11,9 +11,9 @@ window.NIGHTBRINGER = {
   projectName: "NightBringer",
   ticker: "NOX",              // e.g. "NOX" (without the $)
   chain: "Cardano",        // where the memecoin lives
-  policyId: "",            // Cardano policy ID, 56 hex characters
-  assetName: "",           // on-chain asset name, if different from the ticker
-  totalSupply: "",         // e.g. "1,000,000,000"
+  policyId: "05608299a17bbb62dc8174f3e897274bd34936460fe591775d2963ae",            // Cardano policy ID, 56 hex characters
+  assetName: "NightBringer",           // on-chain asset name, if different from the ticker
+  totalSupply: "1,000,000,000",         // e.g. "1,000,000,000"
   launchDate: "",          // e.g. "2026-12-01"
 
   links: {
