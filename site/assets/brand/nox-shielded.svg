@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" role="img" aria-label="Nox with wings wrapped around him like a cloak, eyes peeking out sideways">
+<title>Nox: Shielded</title>
+<g fill="#E8B64C"><circle cx="70" cy="300" r="3"/><circle cx="330" cy="110" r="3"/><circle cx="340" cy="330" r="2.5"/><circle cx="60" cy="120" r="2.5"/></g>
+<ellipse cx="152" cy="74" rx="11" ry="32" transform="rotate(-38 152 74)" fill="#A99BEA"/>
+<ellipse cx="248" cy="74" rx="11" ry="32" transform="rotate(38 248 74)" fill="#A99BEA"/>
+<path d="M186 116 Q166 88 132 50" stroke="#8274D4" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M214 116 Q234 88 268 50" stroke="#8274D4" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="132" cy="50" r="5" fill="#E8B64C"/><circle cx="268" cy="50" r="5" fill="#E8B64C"/>
+<g fill="#A99BEA"><circle cx="178" cy="114" r="12"/><circle cx="200" cy="108" r="13"/><circle cx="222" cy="114" r="12"/><circle cx="200" cy="170" r="62"/></g>
+<g fill="#14132B"><path d="M141 160 L118 146 L124 170 Z"/><path d="M259 160 L282 146 L276 170 Z"/><path d="M140 160 C150 140 185 145 200 155 C215 145 250 140 260 160 C262 180 245 195 225 192 C212 190 205 182 200 178 C195 182 188 190 175 192 C155 195 138 180 140 160 Z"/></g>
+<ellipse cx="176" cy="168" rx="15" ry="17" fill="#F3ECD9"/><ellipse cx="224" cy="168" rx="15" ry="17" fill="#F3ECD9"/>
+<ellipse cx="170" cy="171" rx="8" ry="10" fill="#14132B"/><ellipse cx="218" cy="171" rx="8" ry="10" fill="#14132B"/>
+<circle cx="174" cy="165" r="3.5" fill="#FFFFFF"/><circle cx="222" cy="165" r="3.5" fill="#FFFFFF"/>
+<path d="M200 198 C150 194 112 236 108 300 C104 352 146 380 204 378 Z" fill="#2E2B6B" stroke="#6A63D6" stroke-width="4" stroke-linejoin="round"/>
+<path d="M200 198 C250 194 288 236 292 300 C296 352 254 380 196 378 Z" fill="#2E2B6B" stroke="#6A63D6" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="150" cy="300" r="20" fill="#F3ECD9"/><circle cx="159" cy="293" r="18" fill="#2E2B6B"/>
+<circle cx="250" cy="300" r="20" fill="#F3ECD9"/><circle cx="241" cy="293" r="18" fill="#2E2B6B"/>
+</svg>

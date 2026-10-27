@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Midnight 101: the privacy blockchain in five minutes | NightBringer</title>
+<meta name="description" content="A plain-language explainer of Midnight: zero-knowledge proofs, selective disclosure, NIGHT and DUST, Compact, and the moon-phase roadmap.">
+<meta name="theme-color" content="#14132B">
+<link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://OWNER.github.io/REPO/midnight.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Midnight 101, explained by a moth">
+<meta property="og:description" content="Zero-knowledge proofs, selective disclosure, NIGHT and DUST. Five minutes, no jargon.">
+<meta property="og:url" content="https://OWNER.github.io/REPO/midnight.html">
+<meta property="og:image" content="https://OWNER.github.io/REPO/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/brand/favicon.svg" alt="" width="36" height="36">NightBringer</a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="midnight.html" aria-current="page">Midnight 101</a></li>
+        <li><a href="./#token">Token</a></li>
+        <li><a href="./#roadmap">Roadmap</a></li>
+        <li><a href="brand.html">Brand kit</a></li>
+        <li><a data-link="github" href="#" hidden>GitHub</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero" aria-labelledby="page-title">
+  <div class="wrap" style="display: grid; gap: 22px; grid-template-columns: minmax(0, 1fr)">
+    <h1 id="page-title">Midnight 101</h1>
+    <p class="lede">The privacy blockchain in five minutes, explained by a moth. No prior crypto knowledge needed.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top: 0; border-top: 0">
+  <div class="wrap article">
+    <article class="article-body">
+
+      <section id="what" aria-labelledby="what-h">
+        <h2 id="what-h">What Midnight is</h2>
+        <p>Midnight is a blockchain built for data protection. It was developed by <strong>Input Output</strong>, the engineering company behind Cardano, and runs as a <strong>partner chain to Cardano</strong>.</p>
+        <p>Its genesis block was produced on 17 March 2026, and the network made its public debut at the end of that month after a testing period.</p>
+      </section>
+
+      <section id="why" aria-labelledby="why-h">
+        <h2 id="why-h">Why a blockchain needs privacy</h2>
+        <p>Most blockchains are public by design. Anyone can look up a wallet and see its balance and every transaction it ever made. That's fine for a meme, and terrible for a salary, a medical record or a company's supplier deals.</p>
+        <p>Older "privacy coins" took the opposite route and hid everything, which keeps running into trouble with exchanges and regulators. Midnight aims for the middle, which it calls <strong>rational privacy</strong>: data is private by default, and you can still prove what needs proving.</p>
+      </section>
+
+      <section id="zk" aria-labelledby="zk-h">
+        <h2 id="zk-h">Zero-knowledge proofs</h2>
+        <p>A zero-knowledge proof lets you convince someone a statement is true without showing them the information behind it. Think of Nox's orb: he can prove it's real without letting you look inside.</p>
+        <div class="example" role="group" aria-label="Example: proving your age">
+          <h3>Example: getting into a bar</h3>
+          <div class="row"><span>The question</span><span>Is this person 18 or older?</span></div>
+          <div class="row"><span>Showing an ID card</span><span>Reveals your name, birth date, address and photo</span></div>
+          <div class="row"><span>Showing a ZK proof</span><span>Reveals only <span class="hidden-val">yes</span></span></div>
+        </div>
+        <p>Midnight uses zero-knowledge proofs inside its smart contracts, so apps can check rules about your data without publishing the data itself.</p>
+      </section>
+
+      <section id="disclosure" aria-labelledby="disclosure-h">
+        <h2 id="disclosure-h">Selective disclosure</h2>
+        <p>Privacy doesn't have to be all or nothing. An app on Midnight can decide exactly <strong>what</strong> gets revealed, <strong>to whom</strong> and <strong>when</strong>. An auditor might see one specific record, a regulator might see a compliance check, and everyone else sees nothing.</p>
+        <p>That's Nox with one wing open: he chooses which part to show.</p>
+      </section>
+
+      <section id="tokens" aria-labelledby="tokens-h">
+        <h2 id="tokens-h">NIGHT and DUST</h2>
+        <p>Midnight splits the jobs most blockchains give to a single coin between two things:</p>
+        <ul>
+          <li><strong>NIGHT</strong> is Midnight's native and governance token. It is public (unshielded), so balances can be seen like on other chains. It launched on Cardano in December 2025 and exists natively on both Cardano and Midnight.</li>
+          <li><strong>DUST</strong> is the resource that pays for transactions and smart contracts. It is shielded and can't be transferred. You don't buy it: holding NIGHT generates it.</li>
+        </ul>
+        <p>Midnight compares this to a rechargeable battery. You don't spend your NIGHT to use the network; it keeps producing DUST, which gets used up and refills. App builders can also hold NIGHT to cover DUST for their users, so those users don't need to hold any tokens at all.</p>
+        <p>And yes, that's why Nox is a moth: moth wings are covered in tiny dust-like scales, and he sheds DUST wherever he flies.</p>
+      </section>
+
+      <section id="compact" aria-labelledby="compact-h">
+        <h2 id="compact-h">Compact, the developer language</h2>
+        <p>Midnight smart contracts are written in <strong>Compact</strong>, a language based on TypeScript. It lets a single contract manage both public and private data, and developers don't need to be cryptography experts to use zero-knowledge proofs with it.</p>
+      </section>
+
+      <section id="roadmap" aria-labelledby="roadmap-h">
+        <h2 id="roadmap-h">The moon-phase roadmap</h2>
+        <p>Midnight names its roadmap phases after Hawaiian moon phases:</p>
+        <table class="phase-table">
+          <thead><tr><th scope="col">Phase</th><th scope="col">Focus</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Hilo</th><td>Minting NIGHT on Cardano and distributing it through the Glacier Drop and Scavenger Mine</td></tr>
+            <tr><th scope="row">Kūkolu</th><td>The mainnet genesis block and a stable network, run by federated validators</td></tr>
+            <tr><th scope="row">Mōhalu</th><td>An incentivized testnet for future stake pool operators and the DUST Capacity Exchange</td></tr>
+            <tr><th scope="row">Hua</th><td>Hybrid apps that bring Midnight's privacy to applications on other chains</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="next" aria-labelledby="next-h">
+        <h2 id="next-h">Go to the source</h2>
+        <p>This page is a starting point written by fans. For anything you'll act on, use the official sources:</p>
+        <ul>
+          <li><a href="https://midnight.network">midnight.network</a>, the official site</li>
+          <li><a href="https://docs.midnight.network">docs.midnight.network</a>, documentation for NIGHT, DUST and Compact</li>
+          <li><a href="https://x.com/MidnightNtwrk">@MidnightNtwrk</a> on X, for announcements</li>
+        </ul>
+        <p class="small">Facts checked in October 2026. Midnight moves fast; when this page and the official docs disagree, trust the docs. Spotted something wrong? Open an issue on GitHub.</p>
+      </section>
+
+    </article>
+
+    <aside class="aside" aria-label="On this page">
+      <img src="assets/brand/nox-wen-moon.svg" alt="Nox pointing up at a crescent moon" width="180" height="189">
+      <ul class="toc">
+        <li><a href="#what">What Midnight is</a></li>
+        <li><a href="#why">Why privacy</a></li>
+        <li><a href="#zk">Zero-knowledge proofs</a></li>
+        <li><a href="#disclosure">Selective disclosure</a></li>
+        <li><a href="#tokens">NIGHT and DUST</a></li>
+        <li><a href="#compact">Compact</a></li>
+        <li><a href="#roadmap">Moon-phase roadmap</a></li>
+        <li><a href="#next">Official sources</a></li>
+      </ul>
+    </aside>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <ul class="footer-links">
+      <li><a href="./">Home</a></li>
+      <li><a href="brand.html">Brand kit</a></li>
+      <li><a data-link="github" href="#" hidden>GitHub</a></li>
+      <li><a href="https://midnight.network">Official Midnight site</a></li>
+    </ul>
+    <p>NightBringer is a fan-made community memecoin. It is not affiliated with, endorsed by, or connected to Midnight, the Midnight Foundation, or Input Output. Memecoins have no intrinsic value and can lose all of their value. Nothing on this site is financial advice.</p>
+    <p>Code MIT. Nox artwork CC BY 4.0. © <span data-year>2026</span> NightBringer contributors.</p>
+  </div>
+</footer>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="126 88 148 148">
+<title>Nox</title>
+<g fill="#A99BEA"><circle cx="178" cy="114" r="12"/><circle cx="200" cy="108" r="13"/><circle cx="222" cy="114" r="12"/><circle cx="200" cy="160" r="58"/></g>
+<path fill="#14132B" d="M140 150 C150 130 185 135 200 145 C215 135 250 130 260 150 C262 170 245 185 225 182 C212 180 205 172 200 168 C195 172 188 180 175 182 C155 185 138 170 140 150 Z"/>
+<ellipse cx="176" cy="158" rx="15" ry="17" fill="#F3ECD9"/><ellipse cx="224" cy="158" rx="15" ry="17" fill="#F3ECD9"/>
+<ellipse cx="179" cy="161" rx="8" ry="10" fill="#14132B"/><ellipse cx="227" cy="161" rx="8" ry="10" fill="#14132B"/>
+<circle cx="200" cy="200" r="7" fill="#E8B64C"/>
+</svg>

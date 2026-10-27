@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" role="img" aria-label="Nox with one wing open and one wing wrapped over his body, winking">
+<title>Nox: Selective disclosure</title>
+<g fill="#E8B64C"><circle cx="58" cy="284" r="3"/><circle cx="54" cy="70" r="2.5"/><circle cx="26" cy="192" r="3"/><circle cx="108" cy="388" r="2.5"/></g>
+<ellipse cx="152" cy="74" rx="11" ry="32" transform="rotate(-38 152 74)" fill="#A99BEA"/>
+<ellipse cx="248" cy="74" rx="11" ry="32" transform="rotate(38 248 74)" fill="#A99BEA"/>
+<path d="M186 116 Q166 88 132 50" stroke="#8274D4" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M214 116 Q234 88 268 50" stroke="#8274D4" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="132" cy="50" r="5" fill="#E8B64C"/><circle cx="268" cy="50" r="5" fill="#E8B64C"/>
+<path d="M192 238 C160 246 92 270 86 320 C82 356 132 362 162 332 C182 312 192 282 196 256 Z" fill="#3A3680" stroke="#6A63D6" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="128" cy="318" r="10" fill="#E8B64C"/><circle cx="128" cy="318" r="4" fill="#14132B"/>
+<path d="M190 210 C150 150 72 92 42 120 C14 146 34 232 92 252 C132 264 170 244 190 228 Z" fill="#2E2B6B" stroke="#6A63D6" stroke-width="4" stroke-linejoin="round"/>
+<g stroke="#6A63D6" stroke-width="2" fill="none" stroke-linecap="round" opacity=".6"><path d="M186 214 Q124 172 62 136"/><path d="M186 222 Q132 220 76 238"/></g>
+<circle cx="96" cy="170" r="26" fill="#F3ECD9"/><circle cx="108" cy="162" r="23" fill="#2E2B6B"/>
+<ellipse cx="200" cy="305" rx="34" ry="58" fill="#A99BEA"/>
+<g stroke="#8274D4" stroke-width="4" fill="none" stroke-linecap="round"><path d="M171 292 Q200 304 229 292"/><path d="M173 318 Q200 330 227 318"/><path d="M181 342 Q200 352 219 342"/></g>
+<g fill="#F3ECD9"><circle cx="166" cy="234" r="22"/><circle cx="234" cy="234" r="22"/><circle cx="186" cy="246" r="24"/><circle cx="214" cy="246" r="24"/><circle cx="200" cy="240" r="26"/></g>
+<path d="M200 205 C250 200 290 240 292 300 C294 352 254 378 200 376 Z" fill="#2E2B6B" stroke="#6A63D6" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="250" cy="300" r="20" fill="#F3ECD9"/><circle cx="241" cy="293" r="18" fill="#2E2B6B"/>
+<g fill="#A99BEA"><circle cx="178" cy="114" r="12"/><circle cx="200" cy="108" r="13"/><circle cx="222" cy="114" r="12"/><circle cx="200" cy="170" r="62"/></g>
+<g fill="#14132B"><path d="M141 160 L118 146 L124 170 Z"/><path d="M259 160 L282 146 L276 170 Z"/><path d="M140 160 C150 140 185 145 200 155 C215 145 250 140 260 160 C262 180 245 195 225 192 C212 190 205 182 200 178 C195 182 188 190 175 192 C155 195 138 180 140 160 Z"/></g>
+<ellipse cx="176" cy="168" rx="15" ry="17" fill="#F3ECD9"/>
+<ellipse cx="179" cy="171" rx="8" ry="10" fill="#14132B"/>
+<circle cx="183" cy="165" r="3.5" fill="#FFFFFF"/>
+<path d="M211 172 Q224 160 237 172" stroke="#F3ECD9" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<circle cx="158" cy="203" r="8" fill="#E99AB4" opacity=".8"/><circle cx="242" cy="203" r="8" fill="#E99AB4" opacity=".8"/>
+<path d="M188 208 Q202 215 213 204" stroke="#14132B" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+</svg>
