@@ -9,7 +9,7 @@
 */
 window.NIGHTBRINGER = {
   projectName: "NightBringer",
-  ticker: "",              // e.g. "NOX" (without the $)
+  ticker: "NOX",              // e.g. "NOX" (without the $)
   chain: "Cardano",        // where the memecoin lives
   policyId: "",            // Cardano policy ID, 56 hex characters
   assetName: "",           // on-chain asset name, if different from the ticker
@@ -22,6 +22,6 @@ window.NIGHTBRINGER = {
     discord: "",           // https://discord.gg/...
     explorer: "",          // e.g. a cexplorer.io or cardanoscan.io page for the token
     dex: "",               // where people can swap, once there is liquidity
-    github: "https://github.com/OWNER/REPO"
+    github: "https://github.com/nox-on-midnight/nox"
   }
 };

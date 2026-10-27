@@ -16,7 +16,7 @@ Its mascot is **Nox, the masked night moth**. Every part of him explains a Midni
 | The dust | NIGHT generates DUST, the shielded resource that pays fees |
 | Crescent moons | Midnight's roadmap phases are named after moon phases |
 
-**Website:** https://OWNER.github.io/REPO/
+**Website:** https://OWNER.github.com/REPO/
 
 > **Fan-made.** NightBringer is not affiliated with, endorsed by, or connected to Midnight, the Midnight Foundation, or Input Output. It is not NIGHT and does not generate DUST. Read the [disclaimer](DISCLAIMER.md).
 
@@ -89,7 +89,7 @@ The site is plain HTML, CSS and a little JavaScript. No build step, no dependenc
 ### Custom domain (optional)
 
 1. Add the domain under *Settings → Pages → Custom domain*, and point your DNS at GitHub Pages ([GitHub's guide](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)).
-2. Replace `https://OWNER.github.io/REPO/` with `https://your-domain/` in the `site/` files and this README.
+2. Replace `https://OWNER.github.com/REPO/` with `https://your-domain/` in the `site/` files and this README.
 3. Tick **Enforce HTTPS**.
 
 ## Preview locally
