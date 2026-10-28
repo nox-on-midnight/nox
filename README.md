@@ -26,7 +26,7 @@
 | Policy ID | `05608299a17bbb62dc8174f3e897274bd34936460fe591775d2963ae` |
 | Asset name | NightBringer |
 | Total supply | 1,000,000,000 |
-| Launch date | _Not announced yet_ |
+| Launch date | 28.10.2026 |
 | Utility | None. It's a memecoin. |
 
 **Check the policy ID every time.** Names, tickers and logos are easy to copy; the policy ID isn't. It must match the one above and the one on the [website](https://nox-on-midnight.github.io/nox/#token). If it doesn't, it isn't NightBringer.
