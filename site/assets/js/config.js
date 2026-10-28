@@ -17,11 +17,11 @@ window.NIGHTBRINGER = {
   launchDate: "28.10.2026",          // e.g. "2026-12-01"
 
   links: {
-    x: "",                 // https://x.com/...
+    x: "https://x.com/NoxNightBringer",
     telegram: "",          // https://t.me/...
     discord: "",           // https://discord.gg/...
     explorer: "",          // e.g. a cexplorer.io or cardanoscan.io page for the token
-    dex: "",               // where people can swap, once there is liquidity
+    dex: "https://www.snek.fun/token/05608299a17bbb62dc8174f3e897274bd34936460fe591775d2963ae4e696768744272696e676572", // where people can buy
     github: "https://github.com/nox-on-midnight/nox"
   }
 };
