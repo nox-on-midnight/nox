@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Proves everything. Shows nothing.</strong><br>
-  <a href="https://nox-on-midnight.github.io/nox/">Website</a> ·
+  <a href="https://nox-on-midnight.github.io/nox/index.html">Website</a> ·
   <a href="https://nox-on-midnight.github.io/nox/midnight.html">Midnight 101</a> ·
   <a href="https://nox-on-midnight.github.io/nox/brand.html">Brand kit</a> ·
   <a href="DISCLAIMER.md">Disclaimer</a>
@@ -29,7 +29,7 @@
 | Launch date | 28.10.2026 |
 | Utility | None. It's a memecoin. |
 
-**Check the policy ID every time.** Names, tickers and logos are easy to copy; the policy ID isn't. It must match the one above and the one on the [website](https://nox-on-midnight.github.io/nox/#token). If it doesn't, it isn't NightBringer.
+**Check the policy ID every time.** Names, tickers and logos are easy to copy; the policy ID isn't. It must match the one above and the one on the [website](https://nox-on-midnight.github.io/nox/index.html#token). If it doesn't, it isn't NightBringer.
 
 ## Meet Nox
 
@@ -58,12 +58,12 @@ There isn't one. No app, no metaverse, no five-year plan. NightBringer exists so
 
 **Always**
 - compare the policy ID with the one above before you swap.
-- make sure you're on the [official website](https://nox-on-midnight.github.io/nox/) or a channel listed below.
+- make sure you're on the [official website](https://nox-on-midnight.github.io/nox/index.html) or a channel listed below.
 - report impersonators in a [GitHub issue](https://github.com/nox-on-midnight/nox/issues) so others get warned. More in [SECURITY.md](SECURITY.md).
 
 ## Official channels
 
-- Website: https://nox-on-midnight.github.io/nox/
+- Website: https://nox-on-midnight.github.io/nox/index.html
 - GitHub: https://github.com/nox-on-midnight/nox
 
 Social channels will be listed here and on the website at launch. Until then, any account claiming to be NightBringer isn't us.
